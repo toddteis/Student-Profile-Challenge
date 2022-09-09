@@ -1,9 +1,9 @@
 public class StudentProfile {
-    public String firstName;
-    public String lastName;
-    public Double gpa;
-    public Integer graduateYear;
-    public String major;
+    private String firstName;
+    private String lastName;
+    private Double gpa;
+    private Integer graduateYear;
+    private String major;
 
     public StudentProfile(String firstName, String lastName, Double gpa, Integer graduateYear, String major) {
         this.firstName = firstName;
@@ -11,6 +11,25 @@ public class StudentProfile {
         this.gpa = gpa;
         this.graduateYear = graduateYear;
         this.major = major;
+    }
+
+    public void setFirstName(String newFirstName) {
+        this.firstName = newFirstName;
+    }
+    public void setLastName(String newLastName) {
+        this.lastName = newLastName;
+    }
+
+    public void setGpa(Double newGpa) {
+        this.gpa = newGpa;
+    }
+
+    public void setGraduateYear(Integer newGraduateYear) {
+        this.graduateYear = newGraduateYear;
+    }
+
+    public void setMajor(String newMajor) {
+        this.major = newMajor;
     }
 
     public void addYear() {
