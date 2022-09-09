@@ -16,4 +16,11 @@ public class StudentProfile {
     public void addYear() {
         this.graduateYear += 1;
     }
+
+    public void printStudentDetails() {
+        System.out.println("Name: " + this.firstName + " " + this.lastName);
+        System.out.println("GPA: " + this.gpa);
+        System.out.println("Graduate Year: " + this.graduateYear);
+        System.out.println("Major: " + this.major);
+    }
 }
