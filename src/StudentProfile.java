@@ -15,12 +15,17 @@ public class StudentProfile {
 
     public void addYear() {
         this.graduateYear += 1;
+        System.out.println();
+        System.out.println("Graduate year for " + this.firstName + " " + this.lastName + " has been incremented to " + this.graduateYear);
+        System.out.println();
     }
 
     public void printStudentDetails() {
+        System.out.println();
         System.out.println("Name: " + this.firstName + " " + this.lastName);
         System.out.println("GPA: " + this.gpa);
         System.out.println("Graduate Year: " + this.graduateYear);
         System.out.println("Major: " + this.major);
+        System.out.println();
     }
 }
