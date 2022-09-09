@@ -5,5 +5,9 @@ public class Main {
         System.out.println("GPA: " + studentA.gpa);
         System.out.println("Graduate Year: " + studentA.graduateYear);
         System.out.println("Major: " + studentA.major);
+
+        studentA.addYear();
+
+        System.out.println("Graduate Year: " + studentA.graduateYear);
     }
 }

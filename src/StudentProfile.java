@@ -12,4 +12,8 @@ public class StudentProfile {
         this.graduateYear = graduateYear;
         this.major = major;
     }
+
+    public void addYear() {
+        this.graduateYear += 1;
+    }
 }
